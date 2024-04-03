@@ -1,0 +1,27 @@
+body{
+      background-color: #A9A9A9
+ }
+
+header{
+      background-color: blue;
+}
+
+.logo{
+      background-color: darkgoldenrod;
+}
+
+nav{
+      background-color: cadetblue;
+}
+
+main{
+      background-color: chartreuse;
+}
+
+section{
+      background-color: palevioletred;
+}
+
+footer{
+      background-color: indigo;
+}
