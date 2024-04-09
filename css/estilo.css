@@ -1,9 +1,10 @@
 body{
-      background-color: #A9A9A9
+      background-color: #A9A9A9;
  }
 
 header{
       background-color: blue;
+      padding:3%;
 }
 
 .logo{
@@ -16,6 +17,9 @@ nav{
 
 main{
       background-color: forestgreen;
+      width: 80;
+      margin-left: auto ;
+      margin-right: auto;
 }
 
 section{
@@ -24,4 +28,5 @@ section{
 
 footer{
       background-color: #8A2BE2;
+      padding: 3%;
 }
