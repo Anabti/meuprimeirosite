@@ -17,7 +17,7 @@ nav{
 
 main{
       background-color: forestgreen;
-      width: 80;
+      width: 80%;
       margin-left: auto ;
       margin-right: auto;
 }
@@ -28,5 +28,13 @@ section{
 
 footer{
       background-color: #8A2BE2;
+      padding: 3%;
+}
+
+.cabecalho{
+      padding: 3%;
+}
+
+.rodape{
       padding: 3%;
 }
