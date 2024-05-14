@@ -1,14 +1,21 @@
 body{
       background-color: #A9A9A9;
- }
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      background-image: url(../img/img/imgfundo.jpg);
+      background-size: 100%;
+      background-repeat: repeat;
+}
 
 header{
-      background-color: blue;
+      background-color: #0f132e;
       padding:3%;
 }
 
 .logo{
-      background-color: darkgoldenrod;
+      background-color:#536d88;
 }
 
 nav{
@@ -16,14 +23,14 @@ nav{
 }
 
 main{
-      background-color: forestgreen;
+      background-color: #19274e;
       width: 80%;
       margin-left: auto ;
       margin-right: auto;
 }
 
 section{
-      background-color: palevioletred;
+      background-color: #b9c3c4;
 }
 
 footer{
@@ -69,7 +76,10 @@ table{
 
 td,th{
       border:5px dashed blue;
-      padding: 15px;
+      padding: 1.5%;
 }
 
-tr
+tr:nth -child (even) {
+      background-color:#b2d9f7
+}
+
