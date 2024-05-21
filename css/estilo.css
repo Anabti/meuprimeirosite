@@ -96,7 +96,8 @@ tr:nth -child (even) {
 
 .imggaleria{
       width:90%;
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-top: 10%;
+      margin-left: 16%;
+      margin-right: 16%;
       margin-bottom: 15%;
 }
