@@ -5,12 +5,12 @@ body{
       font-weight: weight;
       font-style: normal;
       background-image: url(../img/favicon.png/imgfundo.jpg);
-      background-size: 100%;
-      background-repeat: repeat;
+      background-size: 100% 100%;
+      background-repeat: no-repeat ;
 }
 
 header{
-      background-color: #0f132e;
+      background-color: #0f132e;      
       padding:3%;
 }
 
@@ -91,7 +91,7 @@ tr:nth -child (even) {
 }
 
 .col-3{
-      width: 25%;
+      width: 20%;
 }
 
 .imggaleria{
