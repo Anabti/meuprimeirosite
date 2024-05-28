@@ -101,3 +101,24 @@ tr:nth -child (even) {
       margin-right: 16%;
       margin-bottom: 15%;
 }
+
+/* Links: */
+
+/* unvisited link */
+a:link {
+  color: rgb(0, 132, 255);
+}
+/* visited link */
+a:visited {
+      color:blue;
+    }
+    
+    /* mouse over link */
+    a:hover {
+      color: rgb(105, 108, 255);
+    }
+    
+    /* selected link */
+    a:active {
+      color: rgb(0, 102, 255);
+    }
