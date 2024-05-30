@@ -102,6 +102,23 @@ tr:nth -child (even) {
       margin-bottom: 15%;
 }
 
+img{
+      width:50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.direita{
+      float:right;
+      width: 40%;
+      margin-left: 2%;
+}
+
+.espaco{
+      margin-bottom: 2%;
+}
+
 /* imagem logo*/
 
 .imglogo{
