@@ -75,7 +75,7 @@ ul {
     }
     
     ul li:before {
-      margin: 1.2;
+     
       color: #e74c3c /* cor da bolinha */
      }
 
