@@ -119,6 +119,10 @@ img{
       margin-bottom: 2%;
 }
 
+figure{
+      text-align: center;
+   }
+   
 /* imagem logo*/
 
 .imglogo{
