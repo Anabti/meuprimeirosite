@@ -115,6 +115,12 @@ img{
       margin-left: 2%;
 }
 
+.esquerda{
+      float:right;
+      width: 40%;
+      margin-left: 2%;
+}
+
 .espaco{
       margin-bottom: 2%;
 }
