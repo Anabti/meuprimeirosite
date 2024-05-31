@@ -119,6 +119,10 @@ tr:nth -child (even) {
       width: 19%;
 }
 
+.col-4{
+      width: 30%;
+}
+
 .imggaleria{
       width:90%;
       margin-top: 10%;
@@ -205,9 +209,10 @@ a:active {
       }
   }
   
-@media screen and (max-width: 660px) 
+@media screen and (max-width: 660px) {
       .card {
-          width: calc(100% - 20px); /* 1 card por linha em telas pequenas (celulares) */
-      
+            width: calc(100% - 20px); /* 1 card por linha em telas pequenas (celulares) */
+        
       }
-                        
+  }
+      
