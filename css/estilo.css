@@ -191,7 +191,7 @@ a:active {
 
 @media screen and (max-width: 800px) {
       .card {
-          width: calc(50% - 20px); /* 2 cards por linha em telas médias */
+          width: calc(40% - 10px); /* 2 cards por linha em telas médias */
       }
       .col-6{
           width: 100%;
