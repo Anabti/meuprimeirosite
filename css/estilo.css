@@ -182,10 +182,10 @@ a:active {
   }
   
 .card {
-      width: calc(33%.33 - 10px); /* 3 cards por linha, os 20px é o espaço de margem entre eles */
-      margin-bottom: 10px;
+      width: calc(33%.33 - 20px); /* 3 cards por linha, os 20px é o espaço de margem entre eles */
+      margin-bottom: 20px;
       background-color: rgb(65, 105, 225, 0.4);
-      padding: 10px;
+      padding: 20px;
       box-sizing: border-box;
   }
 
