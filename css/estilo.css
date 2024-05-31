@@ -161,12 +161,41 @@ a:visited {
       color:blue;
     }
     
-    /* mouse over link */
-    a:hover {
+/* mouse over link */
+a:hover {
       color: rgb(105, 108, 255);
     }
     
-    /* selected link */
-    a:active {
+/* selected link */
+a:active {
       color: rgb(0, 102, 255);
     }
+
+.cards{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  
+.card {
+      width: calc(33.33% - 20px); /* 3 cards por linha, os 20px é o espaço de margem entre eles */
+      margin-bottom: 20px;
+      background-color: rgb(65, 105, 225, 0.4);
+      padding: 20px;
+      box-sizing: border-box;
+  }
+
+@media screen and (max-width: 800px) {
+      .card {
+          width: calc(50% - 20px); /* 2 cards por linha em telas médias */
+      }
+      .col-6{
+          width: 100%;
+      }
+  }
+  
+@media screen and (max-width: 660px) {
+      .card {
+          width: calc(100% - 20px); /* 1 card por linha em telas pequenas (celulares) */
+      
+      }
