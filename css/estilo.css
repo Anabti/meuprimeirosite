@@ -16,7 +16,7 @@ header{
 }
 
 .logo{
-      background-color:#536d88;
+      background-color:#0f132e;
 }
 
 nav{
@@ -243,11 +243,10 @@ a:active {
       opacity: 0.3;
 }
 
-.centered {
+.bottomright {
       position: absolute;
-      top: 50%;
-      width: 100%;
-      text-align: center;
+      bottom: 8px;
+      right: 16px;
       font-size: 18px;
 }
     
@@ -257,4 +256,10 @@ a:active {
       right: 16px;
       font-size: 18px;
 }
-    
+ 
+.bottomleft {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+      font-size: 18px;
+    }
