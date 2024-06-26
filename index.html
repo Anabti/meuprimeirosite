@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Semântico</title>
+    <title>HTML Semantico</title>
     <link rel="stylesheet"href="reset.css">
     <link rel="stylesheet"href="css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,31 +12,21 @@
     <link rel="shortcut icon"href="favicon.png" type="image/x-icon">
 </head>
 <body>
-    <header class="cabeçalho"> 
-         <div class="logo">
-          <img src="img/img logo.jpg" alt="Imagem do logo" width="300px" height="200px">
-         </div>
-         </nav>
-              <p>
-                <a href="tx1">Sinopse</a>
-              </p>
-              <p>
-                <a href="tx2">Facções</a>
-              </p>
-              <p>
-                <a href="tx3">Enredo</a>
-              </p>
-              <p>
-                <a href="tx4">Curiosidades</a>
-              </p>
-              <p>
-               <a href="tx5">Ordem dos Filmes</a>
-             </p>
-              <p>
-               <a href="tx6">Biblíografia</a>
-              </p>
-         </nav>
-    </header>
+     <header class="cabecalho">
+          <div class="logo">
+              <img class="logotopo" src="img/img logo.jpg" alt="">
+          </div>
+          <nav id="menu">
+              <input type="checkbox" id="menu-toggle">
+              <label for="menu-toggle" class="menu-icon">&#9776;</label>
+              <ul>
+                  <li><a href="#" onclick="document.getElementById('menu-toggle').click()">Sobre</a></li>
+                  <li><a href="#" onclick="document.getElementById('menu-toggle').click()">Estrutura</a></li>
+                  <li><a href="#" onclick="document.getElementById('menu-toggle').click()">Detalhes</a></li>
+                  <li><a href="cssinline_interno.html" onclick="document.getElementById('menu-toggle').click()">Exemplos</a></li>
+              </ul>
+          </nav>
+      </header>
     <main>
          <h1 class="titulos">Trilogia Divergentes</h1>
            <section>
@@ -46,7 +36,7 @@
           </section>
               
           <section>
-               <h2 class="titulos"id="tx1"> Sinopse</h2>
+               <h2 class="titulos"> Sinopse</h2>
                <p>Baseados nos livros de Veronica Roth,o filme se passa em um futuro distópico, Chicago está destruída e a população é dividida em cinco facções (Abnegação, Audácia, Amizade, Franqueza e Erudição).</p>
                <p>Cada uma das cinco facções trabalham em um setor diferente da cidade, ajudando em sua manutenção.</p>
                <p>Todos os habitantes da cidade, quando chegam aos dezesseis anos, são submetidos ao Teste de Aptidão, que os ajudará a escolher a facção que melhor corresponde com sua personalidade e verdadeira natureza humana. Em seguida participam da Cerimônia De Escolha, onde os jovens devem decidir a que grupo querem se unir para passar o resto de suas vidas, podendo permanecer em sua facção de origem ou abandoná-la para sempre.</p>
@@ -54,7 +44,7 @@
         
           </section>
           <section>
-               <h2 class="titulos"id="tx2">Facções</h2>
+               <h2 class="titulos">Facções</h2>
                <p>Há décadas, os antepassados dos personagens perceberam que a culpa por um mundo em guerra não poderia ser atribuída à ideologia política, à crença religiosa, à raça ou ao nacionalismo. Eles concluíram, no entanto, que a culpa estava na personalidade humana, na sua inclinação para o mal, seja qual for a sua forma. Dividiram-se em facções que procuravam erradicar esses males criados pela natureza humana que acreditavam ser responsáveis pela desordem do mundo.</p>
                <div class="linha">
                  <div class="col-3">
@@ -126,7 +116,7 @@
           </section>
          
           <section>
-               <h2 class="titulos"id="tx3">Enredo:</h2>
+               <h2 class="titulos">Enredo:</h2>
                <P>Divergente é o primeiro livro de uma trilogia escrita pela norte-americana Veronica Roth. A série está entre as preferidas do público jovem adulto. Os direitos de filmagem da série foram adquiridos pela Summit Entertainment, e o primeiro filme foi lançado em abril de 2014.No primeiro livro da série, o mundo é apresentado em um cenário pós-guerra e a sociedade é dividida em cinco facções: Amizade (generosidade), Abnegação (altruísmo), Audácia (coragem), Franqueza (sinceridade) e Erudição (inteligência). Cada uma delas acredita que seus membros devem agir de maneira determinada por seus líderes para que o mundo possa viver em paz.</P>   
                
                <figure>
@@ -140,7 +130,7 @@
                <p>Ao longo do livro, Tris (nome escolhido por Beatrice para viver em meio aos membros da Audácia) deve esconder sua condição de Divergente. Ela luta para ser bem-sucedida no teste de iniciação de sua nova facção. Enquanto isso, a Erudição (onde estão os estudiosos, médicos e cientistas) dá início a uma invasão à sede da Abnegação em busca de uma informação que pode mudar o futuro desta sociedade.</p>
           </section>
           <section>
-               <h2 class="titulos"id="tx4">Curiosidades</h2>
+               <h2 class="titulos">Curiosidades</h2>
                <p>A trilogia é composta pelos livros Divergente, Insurgente e Convergente. Veronica Roth lançou, ainda, o livro Quatro, que reúne quatro histórias da série contadas através da perspectiva do personagem conhecido como "Quatro".</p>
                <p>A história é situada em Chicago, nos Estados Unidos.</p>
                
@@ -158,33 +148,28 @@
           </section>
           
           <section>
-               <h2 class="titulos"id="tx6">Ordem dos Filmes</h2>
+               <h2 class="titulos">Ordem dos Filmes</h2>
                <p>A ordem cronológica e de lançamento de seus três filmes é a mesma, de modo que a sequência correta para ver os filmes de Divergente é a seguinte:
                <div class="linha">
                     <div class="col-4">
                        <div>
                            <img class="imggaleria2"src="img/Divergente.jpg"alt="srcset">
-                           <p>1º Divergente (2014)</p>
                        </div>
-                       
+                       <p>1º Divergente (2014)</p>
                     </div>
                     <div class="col-4">
                         <div>
                             <img class="imggaleria2"src="img/Insurgente..jpg" alt="srcset">
-                            <p>2º A Série Divergente: Insurgente (2015)</p>
                          </div>
-                         
+                         <p>2º A Série Divergente: Insurgente (2015)</p>
                     </div>
                     <div class="col-4">
                         <div>
                             <img class="imggaleria2"src="img/Convergent.jpg"alt="srcset"> 
-                            <p>3º A Série Divergente: Convergente (2016)</p>
                         </div>
-                        
+                        <p>3º A Série Divergente: Convergente (2016)</p>
                     </div>
                </div>   
-               
-               
                <p>Para quem quer dar o play nas produções, a Netflix e o Starzplay possuem os três filmes lançados em seu catálogo, com a Netflix, inclusive, mantendo o último filme da saga com seu nome original em inglês, The Divergent Series: Allegiant.</p>
                <p>Além dessas plataformas, porém, também é possível assistir os títulos Divergente e Insurgente pelo Amazon Prime Video, e Divergente e Convergente pelo Telecine Play.</p>
           </section>
@@ -210,7 +195,7 @@
           </section>
          
           <section>
-               <h2 class="titulos"id="tx6">Biblíografia</h2>
+               <h2 class="titulos">Biblíografia</h2>
                <p><a href="https://pt.wikipedia.org/wiki/Divergente_(filme)">https://pt.wikipedia.org/wiki/Divergente_(filme)</a></p>
                <p><a href="https://wp.ufpel.edu.br/artenosul/2021/01/05/divergente-mais-um-drama-adolescente/">https:///wp.ufpel.edu.br/Divergente.br</a></p>
                <p><a href="https://www.tecmundo.com.br/minha-serie/216307-divergente-confira-ordem-correta-filmes.htm">https://www.tecmundo.com.br/minha-serie/divergente.br</a></p>
