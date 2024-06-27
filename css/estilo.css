@@ -32,7 +32,7 @@ header{
       top: 0;
       left: 0;
       right: 0;
-      z-index: 1;
+      z-index:1;
 }
 @media screen and (max-width:600px) {
       .col-25, .col-75, input[type=submit] {
@@ -69,6 +69,7 @@ header{
         
 .logo{
       background-color:#0f132e;
+      padding-top: 1%;
 }
 
 nav{
