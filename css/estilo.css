@@ -59,7 +59,7 @@ header{
 }
         
 .itens_menu ul li {
-      display: inline;
+      display:inline-block;
       margin-left: 1%;
 }
         
